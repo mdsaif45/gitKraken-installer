@@ -17,7 +17,7 @@ A comprehensive, one-click git-Kraken setup tool for Windows and Linux, featurin
 
 ### Windows
 ```powershell
-powershell -Command "iwr https://raw.github.com/mdsaif45/gitKraken-installer/main/windows/gitkraken_setup.bat -OutFile gitkraken_setup.bat; .\gitkraken_setup.bat"
+powershell -Command "iwr https://raw.githubusercontent.com/mdsaif45/gitKraken-installer/refs/heads/main/gitkraken_setup.bat; .\gitkraken_setup.bat"
 ```
 
 ## What the Script Does
