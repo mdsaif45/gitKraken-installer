@@ -5,7 +5,8 @@ A comprehensive, one-click git-Kraken setup tool for Windows and Linux, featurin
 
 ## Supported Platforms
 - Windows 10/11
-
+- Ubuntu/Debian-based Linux distributions
+  
 ## Tools Installed
 - Node.js (Latest LTS)
 - Yarn
@@ -18,6 +19,11 @@ A comprehensive, one-click git-Kraken setup tool for Windows and Linux, featurin
 ### Windows
 ```powershell
 powershell -Command "iwr https://raw.githubusercontent.com/mdsaif45/gitKraken-installer/refs/heads/main/gitkraken_setup.bat; .\gitkraken_setup.bat"
+```
+
+### Linux
+```bash
+curl -sSL https://raw.githubusercontent.com/mdsaif45/gitKraken-installer/refs/heads/main/quick_dev_installer.sh | sudo bash
 ```
 
 ## What the Script Does
